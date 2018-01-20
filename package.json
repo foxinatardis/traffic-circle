@@ -1,0 +1,22 @@
+{
+    "name": "traffic-circle",
+    "version": "0.0.1",
+    "description": "Express Middleware to pass incoming request to alternative server location based on domain name",
+    "main": "lib/traffic-circle.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "virtual-host",
+        "express"
+    ],
+    "author": {
+        "name": "Adam Belliveau",
+        "email": "abellive@me.com",
+        "github"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "http-proxy": "^1.16.2"
+    }
+}
