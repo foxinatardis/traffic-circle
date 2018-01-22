@@ -12,11 +12,15 @@
     ],
     "author": {
         "name": "Adam Belliveau",
-        "email": "abellive@me.com",
+        "email": "foxinatardis@gmail.com",
         "github": "https://github.com/foxinatardis/traffic-circle"
     },
     "license": "MIT",
     "dependencies": {
         "http-proxy": "^1.16.2"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/foxinatardis/traffic-circle"
     }
 }
