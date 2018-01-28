@@ -1,6 +1,6 @@
 {
   "name": "traffic-circle",
-  "version": "0.0.2",
+  "version": "0.1.2",
   "description": "Express Middleware to pass incoming request to alternative server location based on domain name",
   "main": "lib/traffic-circle.js",
   "scripts": {
