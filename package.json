@@ -1,26 +1,27 @@
 {
-    "name": "traffic-circle",
-    "version": "0.0.1",
-    "description": "Express Middleware to pass incoming request to alternative server location based on domain name",
-    "main": "lib/traffic-circle.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "keywords": [
-        "virtual-host",
-        "express"
-    ],
-    "author": {
-        "name": "Adam Belliveau",
-        "email": "foxinatardis@gmail.com",
-        "github": "https://github.com/foxinatardis/traffic-circle"
-    },
-    "license": "MIT",
-    "dependencies": {
-        "http-proxy": "^1.16.2"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/foxinatardis/traffic-circle"
-    }
+  "name": "traffic-circle",
+  "version": "0.0.2",
+  "description": "Express Middleware to pass incoming request to alternative server location based on domain name",
+  "main": "lib/traffic-circle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "virtual-host",
+    "express"
+  ],
+  "author": {
+    "name": "Adam Belliveau",
+    "email": "foxinatardis@gmail.com",
+    "github": "https://github.com/foxinatardis/traffic-circle"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "chokidar": "^2.0.0",
+    "http-proxy": "^1.16.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/foxinatardis/traffic-circle"
+  }
 }
