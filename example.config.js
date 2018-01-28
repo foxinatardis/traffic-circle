@@ -4,6 +4,7 @@
         "example.com": { // key is the domain name including tld (e.g. '.com') but disincluding the 'www' prefix
             "port": 9001,
             "subdomains": {
+                "www": true, //this will allow www.example.com to direct to example.com, you can also specify other options in an object as below
                 "blog": { // this will handle the subdomain "blog" aka blog.example.com
                     "port": 9009,
                     "subdomains": {
